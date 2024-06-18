@@ -5,7 +5,7 @@ import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import { VscFiles } from "react-icons/vsc";
 import Divider from "@mui/material/Divider";
 import { links } from "../pages/links";
-import { useNavigate } from "react-router-dom";
+
 
 interface Props {
   expanded: boolean;
