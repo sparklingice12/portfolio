@@ -33,12 +33,6 @@ I have significant experience in the following technologies: Python, React, Fire
 - Conducts rigorous testing and debugging to ensure mobile apps meet required standards and function smoothly across devices and platforms.
 - Manages the deployment process of mobile applications to app stores (Google Play Store, Apple App Store, etc.).
 
-## Education
-
-`August 2019` **Southern de Oro Philippines College**
-- **Extension program**  Bachelor of Science in Information and Technology
-- Capstone Project: “Cross-Platform Mobile Application for Incident Reporting”
-
 
 ## Skills
 
