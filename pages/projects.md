@@ -45,6 +45,15 @@
     .zoom:hover {
       transform: scale(1.2);
     }
+    .responsive-img {
+      max-width: 100%;
+      height: auto;
+    }
+    @media (min-width: 768px) {
+      .responsive-img {
+        max-width: 500px; /* You can adjust this value as needed */
+      }
+    }
   </style>
   <img src="../pick-it.png" alt="PICK-IT" width="350" height="auto"  class="zoom responsive-img">
   <img src="../pick-it-2.png" alt="PICK-IT 2" width="350" height="auto"  class="zoom responsive-img">
@@ -61,6 +70,24 @@
 
 ## **EVA**🔗
 <p style="text-align: center;">Developer | Freelance</p>
+<style>
+    .zoom {
+      transition: transform 0.2s;
+      transform-origin: center center;
+    }
+    .zoom:hover {
+      transform: scale(1.2);
+    }
+    .responsive-img {
+      max-width: 100%;
+      height: auto;
+    }
+    @media (min-width: 768px) {
+      .responsive-img {
+        max-width: 500px; /* You can adjust this value as needed */
+      }
+    }
+</style>
 <div style="text-align: left; margin-top: 20px;">
   <img src="../eva.png" alt="EVA" width="500" height="auto"  class="zoom responsive-img">
   <p>- a Web-Based Employee evaluation platform designed toenhance the employee evaluation process within organizations.</p>
@@ -73,6 +100,24 @@
 
 ## **SUPER ADMIN APP** 🔗
 <p style="text-align: center;">Developer | Contract at <a href="https://wela.online/en/">WELA School Systems</a></p>
+<style>
+    .zoom {
+      transition: transform 0.2s;
+      transform-origin: center center;
+    }
+    .zoom:hover {
+      transform: scale(1.2);
+    }
+    .responsive-img {
+      max-width: 100%;
+      height: auto;
+    }
+    @media (min-width: 768px) {
+      .responsive-img {
+        max-width: 500px; /* You can adjust this value as needed */
+      }
+    }
+</style>
 <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 20px;">
   <img src="../admin.png" alt="ADMIN" width="400" height="auto"  class="zoom responsive-img">
   <img src="../admin-1.png" alt="ADMIN 2" width="400" height="auto"  class="zoom responsive-img">
@@ -90,6 +135,24 @@
 
 ## **WELA PARENT APP**🔗
 <p style="text-align: center;">Developer | Contract at <a href="https://wela.online/en/">WELA School Systems</a></p>
+<style>
+    .zoom {
+      transition: transform 0.2s;
+      transform-origin: center center;
+    }
+    .zoom:hover {
+      transform: scale(1.2);
+    }
+    .responsive-img {
+      max-width: 100%;
+      height: auto;
+    }
+    @media (min-width: 768px) {
+      .responsive-img {
+        max-width: 500px; /* You can adjust this value as needed */
+      }
+    }
+</style>
 <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 20px;">
   <img src="../wela.png" alt="WELA" width="350" height="auto"  class="zoom responsive-img">
   <img src="../wela-1.png" alt="WELA 2" width="350" height="auto"  class="zoom responsive-img">
