@@ -3,7 +3,7 @@
 ## Summary
 
 Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.
-I have significant experience in the following technologies: Python, React, Firebase, SQL, Flutter, Fastlane along with GitLab CI/CD 🚀
+I have significant experience in the following technologies: Python, React, Firebase, SQL, Flutter, Fastlane along with GitLab CI/CD 🚀.
 
 
 ## Experience
@@ -14,7 +14,6 @@ I have significant experience in the following technologies: Python, React, Fire
 - Constructs and prioritizes production processes to ensure that the development team is clear on what to work on next.
 - Attends all agile and scrum meetings to ensure that development work is aligned with the roadmap set by the product manager.
 - Provides feedback on the validated roadmap to the product manager.
-- _**Technologies used:**_ Frappe, Python, Flutter, MariaDB, Firebase, GCP.
 
 &nbsp;
 
@@ -51,4 +50,4 @@ I have significant experience in the following technologies: Python, React, Fire
 ## Languages
 **English**: Conversational (B1/B2)
 **Visayan**: Native
-**Tagalog**: Native
+**Tagalog**: Fluent
