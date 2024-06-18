@@ -2,31 +2,28 @@
 
 ## General Tech Stacks
 - Architecture Design
-- Desktop App Development
-- Web Development (Frontend & Backend)
+- Mobile App Development
+- Backend Development
 
 ## Programming languages
-- C# .NET
-- Python
-- JavaScript/TypeScript
-  - React.js
-- T-SQL
-- Go
-- C++
-- Java
-- VB.NET/VBA
+- Flutter 
+- GetX
+- Frappe/Python
+- React.js
+- Typescript
+- Fastlane
+
 
 ## Databases
-- MSSQL
-- PostgreSQL
+- Firestore
+- MariaDB
 - MySQL
 - SQLite
+- HiveDB
 
 ## Cloud
-- Azure
 - GCP
 - Heroku
-- Render
 
 ## Vcs
 - Git

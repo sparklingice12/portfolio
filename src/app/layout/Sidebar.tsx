@@ -2,8 +2,7 @@ import React from "react";
 import { Box, Link, Paper, Tooltip } from "@mui/material";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
-import { VscFiles, VscSettingsGear } from "react-icons/vsc";
-import { BiGitBranch } from "react-icons/bi";
+import { VscFiles } from "react-icons/vsc";
 import Divider from "@mui/material/Divider";
 import { links } from "../pages/links";
 import { useNavigate } from "react-router-dom";
@@ -23,7 +22,6 @@ export default function Sidebar({
   handleThemeChange,
   setSelectedIndex,
 }: Props) {
-  const navigate = useNavigate();
   return (
     <Box
       sx={{
@@ -48,8 +46,8 @@ export default function Sidebar({
             borderLeft: expanded
               ? "solid 0.12em white"
               : darkMode
-              ? "solid 0.12em #333333"
-              : "solid 0.12em #2c2c2c",
+                ? "solid 0.12em #333333"
+                : "solid 0.12em #2c2c2c",
             cursor: "pointer",
             WebkitTapHighlightColor: "rgba(0,0,0,0)",
           }}
@@ -72,33 +70,7 @@ export default function Sidebar({
             <VscFiles />
           </Box>
         </Box>
-        <Tooltip title="Source of this project" arrow placement="right">
-          <Link
-            target="_blank"
-            href={"https://github.com/noworneverev/react-vscode-portfolio"}
-            underline="none"
-            color="inherit"
-            sx={{ WebkitTapHighlightColor: "rgba(0,0,0,0)" }}
-          >
-            <Box
-              sx={{
-                flexGrow: 0,
-                cursor: "pointer",
-                color: "#858585",
-                fontSize: 24,
-                "&:hover": {
-                  color: "white",
-                },
-              }}
-              display="flex"
-              justifyContent="center"
-            >
-              <Box mt={0.7}>
-                <BiGitBranch />
-              </Box>
-            </Box>
-          </Link>
-        </Tooltip>
+
 
         <Divider sx={{ m: 0.5 }} />
 
@@ -169,36 +141,7 @@ export default function Sidebar({
             )}
           </Box>
         </Tooltip>
-        <Tooltip title="Markdown syntax" arrow placement="right">
-          <Link
-            onClick={() => {
-              setSelectedIndex(-1);
-              navigate("/docs");
-            }}
-            underline="none"
-            color="inherit"
-            sx={{ WebkitTapHighlightColor: "rgba(0,0,0,0)" }}
-          >
-            <Box
-              sx={{
-                flexGrow: 0,
-                fontSize: 24,
-                color: "#858585",
-                cursor: "pointer",
-                "&:hover": {
-                  color: "white",
-                },
-                WebkitTapHighlightColor: "rgba(0,0,0,0)",
-              }}
-              display="flex"
-              justifyContent="center"
-            >
-              <Box mt={0.7}>
-                <VscSettingsGear />
-              </Box>
-            </Box>
-          </Link>
-        </Tooltip>
+
       </Box>
     </Box>
   );
