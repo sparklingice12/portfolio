@@ -90,7 +90,7 @@
 </style>
 <div style="text-align: left; margin-top: 20px;">
   <img src="../eva.png" alt="EVA" width="500" height="auto"  class="zoom responsive-img">
-  <p>- a Web-Based Employee evaluation platform designed toenhance the employee evaluation process within organizations.</p>
+  <p>- a Web-Based Employee evaluation platform designed to enhance the employee evaluation process within organizations.</p>
 </div>
 <p><strong>TECH STACK USED:</strong></p>
 <ul>
@@ -160,7 +160,7 @@
 </div>
 <p>- A parent monitoring app that tracks students' performance and information.</p>
 <ul>
-  <li>Flutter GetX</li>
+  <li>Flutter</li>
   <li>Dart</li>
   <li>Frappe</li>
   <li>Python</li>
